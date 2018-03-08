@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "gisweb-7ba73",
+  "private_key_id": "49c0d25c98878302656d413b350aca64ad2b76a7",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCoX6boU9kcJ3O4\nC3lblAMGOfs8GYN+vdNPHar9kRV+OTml8x+RdxKcTMFJ+L8tfzVg9dEvjrOgXlIT\nx8W9MYJTwbfqyeag6rE0UoYmoiji24ETm42m7auExKYgBTrC+EkUCTCcm8b1tg0m\nZx1CTTPJmmMyY/Igom2yyLlCN53cSdEqoNkg4zIcIFQr1iQ86zI37YEs4cLxmkzX\na+vRjyHBazVf//ETvHMa2q5lR5IWfAqZX3DcTSEqZnZqZz5g0hfCS8YkYD2D3l7A\nUkseGGqvbfi3pwp9qTq7vozLcGqwDR2xC5Ud97bbE9R2Kc1VAgxi+uyRT/8wTf8s\nsyIzXFy7AgMBAAECggEAH8CCElgVnmiWOwP26906wMbYaRoKoTEdE1Nt9omQuxAB\nnhj+QAlregxDezasnuDZaSKSQ1yu5TREWDSZRrd6c18Z1u4iTwBTUKGraMe13Co2\n6kKwcOVrLguDpJA356K47U1aXH5IA/hD/JT/gIxcks1JnawZciwPceLGhQVGAM+g\nILhyFY4BVlstPx6ajcw0oFz+X8czeEA+u53P3LbWTtMo4fhu1D1o/3pkBD4q1XZJ\n0CD3t9J3srgKm5TDpPDqD8f8D1fuOYDJkPBBu8v04X2KOM9GyG5SpQutfAYBeNNV\nF3tPzW5d2Xo1dH7JCTtHXgOaPmhj9PSsY0HPVQuSGQKBgQDnBop8iB81gCJLd3H5\nGN7Xl4nnO/7qzgwzqMByRHR4iTF4HQh7PBCXClohfXyG8enKSgAVK4E6qHGpUKKI\nzGZQrQcZYlbBfb6dspOOJBr4mMY2YdaBhV4QQkswD3qVJMQ7bl8QAeyxIFg3VNQt\n8R2Pqdid5+DaWCWVPAWhgXS81wKBgQC6k0QvMUHy3c9FU85/mk62NeMpU1jNq0wq\nyrHIVcN0wksFQnE4JK4CSJDiG7fsWW4UWNfaRq02dV4k30k7BfDiLs6m2QeGjuVh\nsZf9X8iHag96c5x4KA6eTCn2eiSTGSLFvdmBDhQcH8XZBP5DHEy0tMOZYDLBjoH+\nRaQbcxpevQKBgQDiuZOdhYWDXt3JTE7pFNRVpp2q9kFFtLNa22kKe04GoTWQWIXj\nU15ArOMpbNqSIMW9RgRwwkJQC9GIRd9M+7QJxtVpvw2/VKWGZCPVYm+pu10DL99x\nOy7GLBlX8EjwJ6YBYV8f+ZONfV2156VX9QJ65Ef3KAKOpeU0YTRxfPfQ/wKBgCa4\nY2Er5tThZZ+sqeFfg9Ba1J8B9h8Q2sjSshyyd9Lmc61OwbJ2IkrFBpR2TjBVyvuc\nCIf7PP1dVEFwuYDvVbOLJUYJKn+pbj9dHP7vfu1jfHzcO2/QWGBPzDGj3a1NfSLu\nqJIY+uFvUp8cYyxIVj72eNV+2mnDCoVbrJgpxiI9AoGBAIL1xqVyMZeFhw8z1Rdi\nYpuQ7GyKYv4qGwL42E37fjgfY8wqnBT7c/pSx/MXxPTIlRrf4X1UpEIEBvtEnMmP\nJfF4spAzO092+R4BOKX4VMw+ciBy/5DQTSMEVWi329GmmsiAvrVTxdKBDZPt/ZnJ\nC/GyDJQJULkUgXJYzJev/It+\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-rdp94@gisweb-7ba73.iam.gserviceaccount.com",
+  "client_id": "114896891387969153545",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://accounts.google.com/o/oauth2/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-rdp94%40gisweb-7ba73.iam.gserviceaccount.com"
+}
