@@ -9,6 +9,7 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 const index_1 = require("../../index");
+const helpers_response_1 = require("../../helpers/helpers-response");
 exports.getAllPetani = (req, res) => __awaiter(this, void 0, void 0, function* () {
     try {
         const snapOfPetani = yield index_1.DB.collection('petani').get();
@@ -19,17 +20,11 @@ exports.getAllPetani = (req, res) => __awaiter(this, void 0, void 0, function* (
                 datapetani.id = documentOfpetani.id;
                 alldata.push(datapetani);
             });
-            res.jsonp({
-                code: 200,
-                data: alldata
-            });
+            res.jsonp(helpers_response_1.default.success(alldata));
         }
     }
     catch (error) {
-        res.jsonp({
-            code: 400,
-            msg: error
-        });
+        res.jsonp(helpers_response_1.default.bad_request(error));
     }
 });
 //# sourceMappingURL=petani-get.js.map

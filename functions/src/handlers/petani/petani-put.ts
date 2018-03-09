@@ -3,8 +3,6 @@ import { DB } from '../../index';
 import { PETANI_ID } from '../../config/params';
 import { Request, Response } from 'firebase-functions';
 
-
-
 export const updateData = async (req: Request, res: Response) => {
    const idData = req.params[PETANI_ID];
 

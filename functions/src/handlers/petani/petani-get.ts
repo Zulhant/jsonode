@@ -1,6 +1,7 @@
 import * as express from 'express';
 import { DB } from '../../index';
 import { PETANI_ID, PETANI_TYPE } from '../../config/params';
+import responGenerator from '../../helpers/helpers-response';
 import { Request } from 'express';
 import { Response } from 'firebase-functions';
 
@@ -16,16 +17,14 @@ export const getAllPetani = async (req: Request, res: Response) => {
             alldata.push(datapetani);
          })
 
-         res.jsonp({
-            code: 200,
-            data: alldata
-         })
+         res.jsonp(
+            responGenerator.success(alldata)
+         )
       }
    } catch (error) {
-      res.jsonp({
-         code: 400,
-         msg: error
-      })
+      res.jsonp(
+         responGenerator.bad_request(error)
+      )
    }
 }
 

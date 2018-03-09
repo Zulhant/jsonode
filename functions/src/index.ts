@@ -5,9 +5,8 @@ import * as admin from 'firebase-admin';
 import { DB_URL } from './config/database';
 
 import RouterPetani from './router/Router-Petani';
+import RouterUser from './router/router-users';
 import { validateAndDecodedToken } from './middlewares/validationAndDecodedToken'
-
-
 
 const app = express();
 
@@ -24,12 +23,12 @@ app.use(
    })
 )
 
-
 export const DB = admin.firestore();
-app.use(validateAndDecodedToken);
+
+// app.use(validateAndDecodedToken);
 
 
 app.use('/petani', RouterPetani)
-
+app.use('/user', RouterUser)
 exports.api = functions.https.onRequest(app);
 

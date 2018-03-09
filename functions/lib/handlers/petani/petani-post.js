@@ -8,20 +8,15 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
     });
 };
 Object.defineProperty(exports, "__esModule", { value: true });
+const helpers_response_1 = require("../../helpers/helpers-response");
 const index_1 = require("../../index");
 exports.insertData = (req, res) => __awaiter(this, void 0, void 0, function* () {
     try {
         yield index_1.DB.collection('petani').add(req.body);
-        res.jsonp({
-            code: 200,
-            data: 'success'
-        });
+        res.jsonp(helpers_response_1.default.success('data sukses disimpan'));
     }
     catch (error) {
-        res.jsonp({
-            code: 400,
-            error
-        });
+        res.jsonp(helpers_response_1.default.bad_request(error));
     }
 });
 //# sourceMappingURL=petani-post.js.map
