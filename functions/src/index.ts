@@ -5,6 +5,7 @@ import * as admin from 'firebase-admin';
 import { DB_URL } from './config/database';
 
 import RouterPetani from './router/Router-Petani';
+import { validateAndDecodedToken } from './middlewares/validationAndDecodedToken'
 
 
 
@@ -23,7 +24,10 @@ app.use(
    })
 )
 
+
 export const DB = admin.firestore();
+app.use(validateAndDecodedToken);
+
 
 app.use('/petani', RouterPetani)
 
