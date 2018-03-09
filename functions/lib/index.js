@@ -7,8 +7,9 @@ const admin = require("firebase-admin");
 const database_1 = require("./config/database");
 const Router_Petani_1 = require("./router/Router-Petani");
 const router_users_1 = require("./router/router-users");
-const app = express();
+const Router_FarmerGroup_1 = require("./router/Router-FarmerGroup");
 exports.serviceAccount = require('../../key-api.json');
+const app = express();
 admin.initializeApp({
     credential: admin.credential.cert(exports.serviceAccount),
     databaseURL: database_1.DB_URL
@@ -20,5 +21,6 @@ exports.DB = admin.firestore();
 // app.use(validateAndDecodedToken);
 app.use('/petani', Router_Petani_1.default);
 app.use('/user', router_users_1.default);
+app.use('/parmer_group', Router_FarmerGroup_1.default);
 exports.api = functions.https.onRequest(app);
 //# sourceMappingURL=index.js.map
